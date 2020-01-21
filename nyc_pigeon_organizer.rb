@@ -17,7 +17,6 @@ def nyc_pigeon_organizer(data)
       selected_keys = data[attribute].select do |category, category_data| 
         category_data.include? name
       end
-      binding.pry
       selected_array = selected_keys.map {|category, category_data| category.to_s}
       if result[name]
         result[name][attribute] = selected_array
