@@ -30,6 +30,8 @@ def nyc_pigeon_organizer(data)
 end
 
 
+#MUCHH SIMPLER WAY OF DOING IT
+
 
 =begin
 def nyc_pigeon_organizer(data)
